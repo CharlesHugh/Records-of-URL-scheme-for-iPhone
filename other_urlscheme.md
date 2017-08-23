@@ -9,6 +9,7 @@ QQ：    		mqq://
 新浪微博：   	sinaweibo://  
 			weibo://
 weico微博：  weico://
+微博国际版	weibointernational://
 欧路词典 		eudic://dict/
 Evernote	evernote://
 扫描全能王 	camscanner://
@@ -27,13 +28,16 @@ Documents5 	rdocs://
 网易公开课 	ntesopen://
 百度云 		baiduyun://
 
+腾讯视频	tenvideo://
 爱奇艺PPS 	ppstream://
 哔哩哔哩动画 	bilibili://
+摩拜单车	mobike://
+ofo	ofoapp://
 
+有道云笔记	youdaonote://
 百度地图：   	bdmap://
 京东：    	openapp.jdmoble://
-人人：    	renren://
-	 		renrenios://
+人人：    	renren://	 		renrenios://
 美团：    	imeituan://
 大众点评： 	dianping://
 大众点评搜索 	dianping://search
@@ -93,6 +97,7 @@ PPTV 		pptv://
 威锋网 		com.weiphone.forum://
 网易邮箱 		neteasemail://
 网易新闻 		newsapp://
+掌阅iReader 	iReader://
 
 
 
