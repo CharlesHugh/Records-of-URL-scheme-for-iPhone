@@ -43,9 +43,9 @@ iOS系统应用 URL Scheme
 |音乐-均衡器	|App-Prefs:root=MUSIC&path=com.apple.Music:EQ|
 |照片与相机	|App-Prefs:root=Photos				|
 |FaceTime	|App-Prefs:root=FACETIME 			|
-
 ---
-iOS常用软件 URL Scheme
+*iOS常用软件 URL Scheme*
+
 |名称        |urlscheme                          |
 |:----------|:----------------------------------|
 |Alipay：    |alipay://|
@@ -103,6 +103,7 @@ iOS常用软件 URL Scheme
 |掌阅iReader |iReader://|
 
 *Url Scheme Alipay interface 支付宝接口*
+
 |名称        |urlscheme                                    |
 |:----------|:--------------------------------------------|
 |支付宝：       |alipayqr://                                  |
