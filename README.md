@@ -5,5 +5,5 @@
 2. 系统设置 Setting
 3. 支付宝接口  Alipay interface
 
-常用搜索引擎的借口：
+常用搜索引擎的接口：
 
