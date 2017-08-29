@@ -1,10 +1,12 @@
 URL Scheme 系统应用
-
-地图：   		maps://
-电话：    		tel:
-短信：   		sms:
-Mail邮件：    	mailto:
-iBooks：    		ibooks://
+---
+|名称|urlscheme|
+|:--:|:--:|
+|地图： |  		maps://|
+|电话：   | 		tel:|
+|短信：   	|	sms:|
+|Mail邮件：  |  	mailto:|
+iBooks：    	|	ibooks://|
 音乐： 		 	music:
 视频		    	videos:
 邮件: 			MESSAGE://
@@ -18,6 +20,9 @@ iTunes：    		http://itunes.apple.com
 设置：				App-prefs:root=SETTING
 
 通知					App-Prefs:root=NOTIFICATIONS_ID
+
+
+锁定：App-Prefs:root=General&path=AUTOLOCK
 
 
 定位服务: 			App-prefs:root=LOCATION_SERVICES
@@ -38,12 +43,13 @@ iTunes：    		http://itunes.apple.com
 	语言与地区		App-Prefs:root=General&path=INTERNATIONAL
 
 	还原				App-Prefs:root=Reset
-
+亮度：				App-Prefs:root=Brightness
 墙纸					App-Prefs:root=Wallpaper
 声音: 				App-Prefs:root=Sounds
 Siri				App-Prefs:root=SIRI
 电池: 				App-Prefs:root=BATTERY_USAGE
 隐私					App-Prefs:root=Privacy
+
 Safari				App-Prefs:root=SAFARI
 音乐					App-Prefs:root=MUSIC
 音乐-均衡器			App-Prefs:root=MUSIC&path=com.apple.Music:EQ

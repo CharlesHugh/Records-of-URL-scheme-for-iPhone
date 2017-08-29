@@ -10,7 +10,7 @@ QQ：    		mqq://
 			weibo://
 weico微博：  weico://
 微博国际版	weibointernational://
-欧路词典 		eudic://dict/
+欧路词典 		eudic://dict/%@
 Evernote	evernote://
 扫描全能王 	camscanner://
 UC浏览器 	ucbrowser://
@@ -28,11 +28,12 @@ Documents5 	rdocs://
 网易公开课 	ntesopen://
 百度云 		baiduyun://
 
-腾讯视频	tenvideo://
+全民K歌：		qmkege://
+腾讯视频		tenvideo://
 爱奇艺PPS 	ppstream://
 哔哩哔哩动画 	bilibili://
-摩拜单车	mobike://
-ofo	ofoapp://
+摩拜单车		mobike://
+ofo			ofoapp://
 
 有道云笔记	youdaonote://
 百度地图：   	bdmap://
