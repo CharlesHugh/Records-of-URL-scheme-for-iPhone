@@ -1,4 +1,4 @@
-iOS系统应用 URL Scheme 
+iOS系统应用 URL Scheme
 |名称        |urlscheme               			|
 |:----------|:----------------------------------|
 |地图： 		|maps://							|
@@ -24,7 +24,6 @@ iOS系统应用 URL Scheme
 |蜂窝移动网络	|App-Prefs:root=MOBILE_DATA_SETTINGS_ID	|
 |个人热点		|App-Prefs:root=INTERNET_TETHERING		|
 |运营商		|App-Prefs:root=Carrier					|
-|           |               						|
 |通用		|App-Prefs:root=General					|
 |-关于本机	|App-Prefs:root=General&path=About		|
 |-辅助功能	|App-Prefs:root=General&path=ACCESSIBILITY|
@@ -32,24 +31,21 @@ iOS系统应用 URL Scheme
 |-键盘		|App-Prefs:root=General&path=Keyboard|
 |-语言与地区	|App-Prefs:root=General&path=INTERNATIONAL|
 |-还原		|App-Prefs:root=Reset				|
-|          	|               					|
 |亮度：		|App-Prefs:root=Brightness			|
 |墙纸		|App-Prefs:root=Wallpaper			|
 |声音: 		|App-Prefs:root=Sounds				|
 |Siri		|App-Prefs:root=SIRI 				|
 |电池: 		|App-Prefs:root=BATTERY_USAGE		|			
 |隐私		|App-Prefs:root=Privacy				|
-|			|									|
 |Safari		|App-Prefs:root=SAFARI 				|
 |音乐		|App-Prefs:root=MUSIC 				|
 |音乐-均衡器	|App-Prefs:root=MUSIC&path=com.apple.Music:EQ|
 |照片与相机	|App-Prefs:root=Photos				|
 |FaceTime	|App-Prefs:root=FACETIME 			|
-|          	|               					|
 
 ---
 iOS常用软件 URL Scheme
-|名称        |urlscheme                           |
+|名称        |urlscheme                          |
 |:----------|:----------------------------------|
 |Alipay：    |alipay://|
 |WeChat：    |wechat://|
