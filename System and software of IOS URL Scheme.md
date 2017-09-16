@@ -1,10 +1,6 @@
-# URL-Scheme大全
+# URL-Scheme大全-hughcharles
 
 [iOS常用软件](#ios常用软件)、[iOS系统应用](#ios系统应用)、[支付宝](#支付宝)、[Spark](#spark)、[Workflow](workflow)、[Surge](#surge)、[Day One](#day-one)
-
-|语法|效果|
-|---|---|
-|`[回到顶部](#readme)`|[回到顶部](#readme)|
 	
 ---
 ## iOS常用软件
