@@ -29,14 +29,10 @@
 |新浪微博： 					|weibo://|
 |新浪微博-国际版：			|weibointernational://|
 |新浪微博-weico客户端： 	|weico://|
-|
-|
 |**功能**
 |微信-扫一扫：	|wechat://scanqrcode|
 |支付宝-扫一扫	|alipay://platformapi/startapp?saId=10000007|
 |支付宝-付款码	|alipay://platformapi/startapp?saId=20000056|
-|
-|
 |**搜索**
 |链接			|url://
 |1Password	|onepassword://search/%@|
@@ -52,8 +48,6 @@
 |维基 	     |https://en.m.wikipedia.org/wiki/|
 |有道词典 |http://m.youdao.com/dict?q=|
 |京东       |http://so.m.jd.com/ware/search.action?keyword=|
-|
-|
 |**其他**
 |Chrome	|googlechrome://|
 |Chrome	|googlechrome://www.google.com/search?&q=%@|
