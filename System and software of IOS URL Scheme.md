@@ -11,7 +11,6 @@
 |:----------|:-----------------------|
 |**快捷方式**
 |1Password	|onepassword://|
-|1Password	|onepassword://search/%@|
 |欧路词典		|eudic://dict/%@|
 |欧路词典		|eudic://x-callback-url/searchword?word=%@|
 |OMnifocus 	|omnifocus://x-callback-url/add?name|
@@ -35,20 +34,15 @@
 |支付宝-付款码:	|alipay://platformapi/startapp?saId=20000056
 |支付宝-收款码:	|alipay://platformapi/startapp?saId=20000123
 |**搜索**
-|链接			|url://
-|1Password	|onepassword://search/%@|
-|欧路词典		|eudic://dict/%@|
-|欧路词典		|eudic://x-callback-url/searchword?word=%@|
-|谷歌 	     |https://www.google.com/search?q=%@|
-|百度百科 |http://baike.baidu.com/item/|
-|维基中文 |https://zh.wikipedia.org/wiki/%@|
-|知乎 	     |https://www.zhihu.com/search?q=%@|
-|豆瓣 	     |https://m.douban.com/search/?query=|
-|淘宝 	     |http://s.m.taobao.com/h5?q=Input|
-|百度 	     |https://m.baidu.com/s?word=|
-|维基 	     |https://en.m.wikipedia.org/wiki/|
-|有道词典 |http://m.youdao.com/dict?q=|
-|京东       |http://so.m.jd.com/ware/search.action?keyword=|
+|链接		 |url://
+|1Pass	 |onepassword://search/%@|
+|欧路词典	 |eudic://x-callback-url/searchword?word=%@|
+|谷歌		 |https://www.google.com/search?q=%@|
+|百度百科	 |http://baike.baidu.com/item/|
+|维基中文	 |https://zh.wikipedia.org/wiki/%@|
+|知乎		 |https://www.zhihu.com/search?q=%@|
+|豆瓣		 |https://m.douban.com/search/?query=|
+|淘宝		 |http://s.m.taobao.com/h5?q=Input|
 |**其他**
 |Chrome	|googlechrome://|
 |Chrome	|googlechrome://www.google.com/search?&q=%@|
