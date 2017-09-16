@@ -30,9 +30,10 @@
 |新浪微博-国际版：			|weibointernational://|
 |新浪微博-weico客户端： 	|weico://|
 |**功能**
-|微信-扫一扫：	|wechat://scanqrcode|
-|支付宝-扫一扫	|alipay://platformapi/startapp?saId=10000007|
-|支付宝-付款码	|alipay://platformapi/startapp?saId=20000056|
+|微   信-扫一扫: |wechat://scanqrcode|
+|支付宝-扫一扫:	|alipay://platformapi/startapp?saId=10000007
+|支付宝-付款码:	|alipay://platformapi/startapp?saId=20000056
+|支付宝-收款码:	|alipay://platformapi/startapp?saId=20000123
 |**搜索**
 |链接			|url://
 |1Password	|onepassword://search/%@|
@@ -138,17 +139,17 @@
 
 ## 支付宝
 
-|名称        |urlscheme                                    |
-|:----------|:---------------------------------------|
-|支付宝：       |alipayqr://                                  |
-|扫一扫：       |alipayqr://platformapi/startapp?saId=10000007|
-|转账：        |alipayqr://platformapi/startapp?saId=20000116|
-|付款码：       |alipayqr://platformapi/startapp?saId=20000056|
-|收款码：       |alipayqr://platformapi/startapp?saId=20000123|
-|红包：        |alipayqr://platformapi/startapp?saId=88886666|
-|卡券：        |alipayqr://platformapi/startapp?saId=88888888|
-|手机充值：  |alipayqr://platformapi/startapp?saId=10000003|
-|余额宝：       |alipayqr://platformapi/startapp?saId=20000032|
+|名称      	   |urlscheme                                    
+|:-------  |:----------------------------------
+|支付宝：   |alipayqr://            	
+|扫一扫：   |alipayqr://platformapi/startapp?saId=10000007|
+|转账：      |alipayqr://platformapi/startapp?saId=20000116|
+|付款码：   |alipayqr://platformapi/startapp?saId=20000056|
+|收款码：   |alipayqr://platformapi/startapp?saId=20000123|
+|红包：	   |alipayqr://platformapi/startapp?saId=88886666|
+|卡券：      |alipayqr://platformapi/startapp?saId=88888888|
+|手机充值：|alipayqr://platformapi/startapp?saId=10000003|
+|余额宝：   |alipayqr://platformapi/startapp?saId=20000032|
 
 -------
 
