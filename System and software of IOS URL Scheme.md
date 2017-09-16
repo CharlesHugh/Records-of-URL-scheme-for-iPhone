@@ -29,7 +29,7 @@
 |新浪微博-国际版：			|weibointernational://|
 |新浪微博-weico客户端： 	|weico://|
 |**功能**
-|微   信-扫一扫: |wechat://scanqrcode|
+|微   信-扫一扫: |wexin://scanqrcode|
 |支付宝-扫一扫:	|alipay://platformapi/startapp?saId=10000007
 |支付宝-付款码:	|alipay://platformapi/startapp?saId=20000056
 |支付宝-收款码:	|alipay://platformapi/startapp?saId=20000123
