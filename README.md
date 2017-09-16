@@ -1,9 +1,7 @@
+**URL Scheme**
 
-*URL Scheme*
-
-1. 常用软件及里的
-2. 系统设置 Setting
-3. 支付宝接口  Alipay interface
-
-常用搜索引擎的接口：
+1. 常用软件、功能
+2. 系统设置
+3. 支付宝接口
+4. 搜索引擎
 

@@ -1,12 +1,15 @@
 # URL-Scheme大全-hughcharles
 
 [iOS常用软件](#ios常用软件)、[iOS系统应用](#ios系统应用)、[支付宝](#支付宝)、[Spark](#spark)、[Workflow](workflow)、[Surge](#surge)、[Day One](#day-one)
+[搜索引擎](#搜索引擎)
+
 	
 ---
 ## iOS常用软件
 
 |名称       	 |urlscheme                          |
 |:----------|:-----------------------|
+|**快捷方式**
 |1Password	|onepassword://|
 |1Password	|onepassword://search/%@|
 |欧路词典		|eudic://dict/%@|
@@ -16,10 +19,7 @@
 |Surge		|surge:///toggle?autoclose=true|
 |虾米音乐： 	|xiami://|
 |支付宝：    		|alipay://|
-|支付宝-扫一扫	|alipay://platformapi/startapp?saId=10000007|
-|支付宝-付款码	|alipay://platformapi/startapp?saId=20000056|
 |微信：   			|wechat://|
-|微信-扫一扫：	|wechat://scanqrcode|
 |QQ：        		|mqq://|
 |QQ国际版  		|mqqiapi://|
 |Evernote   		|evernote://|
@@ -29,6 +29,32 @@
 |新浪微博： 					|weibo://|
 |新浪微博-国际版：			|weibointernational://|
 |新浪微博-weico客户端： 	|weico://|
+|
+|
+|**功能**
+|微信-扫一扫：	|wechat://scanqrcode|
+|支付宝-扫一扫	|alipay://platformapi/startapp?saId=10000007|
+|支付宝-付款码	|alipay://platformapi/startapp?saId=20000056|
+|
+|
+|**搜索**
+|链接			|url://
+|1Password	|onepassword://search/%@|
+|欧路词典		|eudic://dict/%@|
+|欧路词典		|eudic://x-callback-url/searchword?word=%@|
+|谷歌 	     |https://www.google.com/search?q=%@|
+|百度百科 |http://baike.baidu.com/item/|
+|维基中文 |https://zh.wikipedia.org/wiki/%@|
+|知乎 	     |https://www.zhihu.com/search?q=%@|
+|豆瓣 	     |https://m.douban.com/search/?query=|
+|淘宝 	     |http://s.m.taobao.com/h5?q=Input|
+|百度 	     |https://m.baidu.com/s?word=|
+|维基 	     |https://en.m.wikipedia.org/wiki/|
+|有道词典 |http://m.youdao.com/dict?q=|
+|京东       |http://so.m.jd.com/ware/search.action?keyword=|
+|
+|
+|**其他**
 |Chrome	|googlechrome://|
 |Chrome	|googlechrome://www.google.com/search?&q=%@|
 |优酷：       		|youku://|
@@ -68,8 +94,9 @@
 |网易新闻   		|newsapp://|
 |掌阅iReader		|iReader://|
 
-## iOS系统应用
+-------
 
+## iOS系统应用
 |名称        |urlscheme               	|
 |:----------|:---------------|
 |地图： 		|maps://				|
@@ -113,6 +140,7 @@
 |照片与相机	|App-Prefs:root=Photos
 |FaceTime	|App-Prefs:root=FACETIME 
 
+-------
 
 ## 支付宝
 
@@ -128,8 +156,9 @@
 |手机充值：  |alipayqr://platformapi/startapp?saId=10000003|
 |余额宝：       |alipayqr://platformapi/startapp?saId=20000032|
 
-## Spark
+-------
 
+## Spark
 [官方文档原文](https://helpspot.readdle.com/spark/index.php?pg=kb.page&id=791)
 
 |名称        |urlscheme                                    |
@@ -138,8 +167,8 @@
 |open Spark mail composer:|readdle-spark://compose|
 |launching Spark compose mode with Subject, Body and Recipient already filled test@test.com follows this structure: |readdle-spark://compose?subject=test&body=test2&recipient=test@test.com|
 
+-------
 ## Workflow
-
 |名称        			|urlscheme                                 |
 |:---------------|:---------------------------|
 |运行特定flow	|workflow://run-workflow?name=X
@@ -147,6 +176,7 @@
 |输入剪贴板		|workflow://run-workflow?name=X&input=clipboard
 |x-callback		|workflow://x-callback-url/run-workflow?name=X&input=X&x-success=http://example.com
 
+-------
 
 ## Surge
 |名称        			|urlscheme                                 |
@@ -159,6 +189,8 @@
 |**Option**|
 |Example：|autoclose=true
 |Auto close Surge after action completed. (Cannot be used with install-config):| surge:///toggle?autoclose=true
+
+-------
 
 ## Day One
 |名称        			|urlscheme                                 |
@@ -177,6 +209,24 @@
 |Create Entry with Clipboard Image: |dayone://post?entry=Hello Self&imageClipboard=1
 |**Entry Edit:**|
 |Edit Entry: |dayone://edit?entryId=\[UUID] (Don't include brackets.)
+
+-------
+
+## 搜索引擎
+|名称         	|urlscheme                           |
+|:---------|:----------------------------------|
+|知乎 	     |https://www.zhihu.com/search?q=|
+|谷歌 	     |https://www.google.com/search?q=|
+|百度 	     |https://m.baidu.com/s?word=|
+|维基 	     |https://en.m.wikipedia.org/wiki/|
+|维基中文 |https://zh.wikipedia.org/wiki/%@|
+|有道词典 |http://m.youdao.com/dict?q=|
+|京东       |http://so.m.jd.com/ware/search.action?keyword=|
+|淘宝 	     |http://s.m.taobao.com/h5?q=Input|
+|豆瓣 	     |https://m.douban.com/search/?query=|
+|百度百科     |http://baike.baidu.com/item/|
+|微博 	     |http://m.weibo.cn/main/pages/index?containerid=100103type%3D1%26q%3D|
+
 
 
 
