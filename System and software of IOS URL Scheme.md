@@ -1,6 +1,6 @@
 # URL-Scheme大全
 
-[iOS常用软件](#ios常用软件)、[iOS系统应用](#ios系统应用)、[支付宝](#支付宝)、[Spark](#Spark)、[Workflow](Workflow)、[Surge](#surge)、[Day One](#day-one)
+[iOS常用软件](#ios常用软件)、[iOS系统应用](#ios系统应用)、[支付宝](#支付宝)、[Spark](#spark)、[Workflow](workflow)、[Surge](#surge)、[Day One](#day-one)
 
 |语法|效果|
 |---|---|
