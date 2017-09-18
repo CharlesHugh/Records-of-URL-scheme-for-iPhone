@@ -39,7 +39,7 @@
 |1Pass	 |onepassword://search/%@|
 |欧路词典	 |eudic://x-callback-url/searchword?word=%@|
 |谷歌		 |https://www.google.com/search?q=%@|
-|百度百科	 |http://baike.baidu.com/item/|
+|百度百科	 |http://baike.baidu.com/item/%@
 |维基中文	 |https://zh.wikipedia.org/wiki/%@|
 |知乎		 |https://www.zhihu.com/search?q=%@|
 |豆瓣		 |https://m.douban.com/search/?query=|
