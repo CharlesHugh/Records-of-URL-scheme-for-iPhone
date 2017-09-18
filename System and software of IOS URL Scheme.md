@@ -35,6 +35,7 @@
 |支付宝-收款码:	|alipay://platformapi/startapp?saId=20000123
 |**搜索**
 |链接		 |url://
+|Appstore|itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
 |1Pass	 |onepassword://search/%@|
 |欧路词典	 |eudic://x-callback-url/searchword?word=%@|
 |谷歌		 |https://www.google.com/search?q=%@|
