@@ -44,6 +44,7 @@
 |知乎		 |https://www.zhihu.com/search?q=%@|
 |豆瓣		 |https://m.douban.com/search/?query=|
 |淘宝		 |http://s.m.taobao.com/h5?q=Input|
+|Github|https://github.com/search?q=[[draft]]
 |**其他**
 |Chrome	|googlechrome://|
 |Chrome	|googlechrome://www.google.com/search?&q=%@|
