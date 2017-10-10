@@ -1,11 +1,11 @@
 # URL-Scheme大全-hughcharles
 
 [iOS常用软件](#ios常用软件)、[iOS系统应用](#ios系统应用)、[支付宝](#支付宝)、[Spark](#spark)、[Workflow](workflow)、[Surge](#surge)、[Day One](#day-one)
-[搜索引擎](#搜索引擎)
+[常用搜索引擎](#常用搜索引擎)、[URL-scheme-for-mac](#URl-schem-for-mac)
 
 	
 ---
-## iOS常用软件
+## 
 
 |名称       	 |urlscheme                          |
 |:----------|:-----------------------|
@@ -203,7 +203,9 @@
 
 -------
 
-## 搜索引擎
+## 常用搜索引擎
+>跳转默认网页进行搜索
+
 |名称         	|urlscheme                           |
 |:---------|:----------------------------------|
 |知乎 	     |https://www.zhihu.com/search?q=|
@@ -217,6 +219,13 @@
 |豆瓣 	     |https://m.douban.com/search/?query=|
 |百度百科     |http://baike.baidu.com/item/|
 |微博 	     |http://m.weibo.cn/main/pages/index?containerid=100103type%3D1%26q%3D|
+
+## url-scheme for mac
+>mac软件中直接跳转
+
+|名称|urlscheme|描述|可用时间|
+|:--|:--|:--|:--|
+|App Store|macappstore://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}|直接在AppStore软件中直接搜索|2017.10.9|
 
 
 
