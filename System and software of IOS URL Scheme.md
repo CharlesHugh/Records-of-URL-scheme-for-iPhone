@@ -1,15 +1,13 @@
-# URL-Scheme大全-hughcharles
+#URL-Scheme集合 搜索引擎集合
+[TOC]
 
-[iOS常用软件](#ios常用软件)、[iOS系统应用](#ios系统应用)、[支付宝](#支付宝)、[Spark](#spark)、[Workflow](workflow)、[Surge](#surge)、[Day One](#day-one)
-[常用搜索引擎](#常用搜索引擎)、[URL-scheme-for-mac](#URl-schem-for-mac)
-
-	
 ---
-## 
+## iOS
+###常用
 
+#### 快捷方式
 |名称       	 |urlscheme                          |
 |:----------|:-----------------------|
-|**快捷方式**
 |1Password	|onepassword://|
 |欧路词典		|eudic://dict/%@|
 |欧路词典		|eudic://x-callback-url/searchword?word=%@|
@@ -28,12 +26,16 @@
 |新浪微博： 					|weibo://|
 |新浪微博-国际版：			|weibointernational://|
 |新浪微博-weico客户端： 	|weico://|
-|**功能**
+#### 功能
+|名称       	 |urlscheme                          |
+|:----------|:-----------------------|
 |微   信-扫一扫: |wexin://scanqrcode|
 |支付宝-扫一扫:	|alipay://platformapi/startapp?saId=10000007
 |支付宝-付款码:	|alipay://platformapi/startapp?saId=20000056
 |支付宝-收款码:	|alipay://platformapi/startapp?saId=20000123
-|**搜索**
+####搜索
+|名称       	 |urlscheme                          |
+|:----------|:-----------------------|
 |链接		 |url://
 |Appstore|itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
 |1Pass	 |onepassword://search/%@|
@@ -45,7 +47,9 @@
 |豆瓣		 |https://m.douban.com/search/?query=|
 |淘宝		 |http://s.m.taobao.com/h5?q=Input|
 |Github|https://github.com/search?q=[[draft]]
-|**其他**
+####其他
+|名称       	 |urlscheme                          |
+|:----------|:-----------------------|
 |Chrome	|googlechrome://|
 |Chrome	|googlechrome://www.google.com/search?&q=%@|
 |优酷：       		|youku://|
@@ -87,7 +91,8 @@
 
 -------
 
-## iOS系统应用
+### iOS系统应用
+
 |名称        |urlscheme               	|
 |:----------|:---------------|
 |地图： 		|maps://				|
@@ -132,8 +137,8 @@
 |FaceTime	|App-Prefs:root=FACETIME 
 
 -------
-
-## 支付宝
+###iOS软件 URL-scheme
+#### 支付宝
 
 |名称      	   |urlscheme                                    
 |:-------  |:----------------------------------
@@ -149,7 +154,7 @@
 
 -------
 
-## Spark
+#### Spark
 [官方文档原文](https://helpspot.readdle.com/spark/index.php?pg=kb.page&id=791)
 
 |名称        |urlscheme                                    |
@@ -159,7 +164,8 @@
 |launching Spark compose mode with Subject, Body and Recipient already filled test@test.com follows this structure: |readdle-spark://compose?subject=test&body=test2&recipient=test@test.com|
 
 -------
-## Workflow
+#### Workflow
+
 |名称        			|urlscheme                                 |
 |:---------------|:---------------------------|
 |运行特定flow	|workflow://run-workflow?name=X
@@ -169,7 +175,8 @@
 
 -------
 
-## Surge
+#### Surge
+
 |名称        			|urlscheme                                 |
 |:---------------|:---------------------------|
 |**Action**|
@@ -183,7 +190,8 @@
 
 -------
 
-## Day One
+#### Day One
+
 |名称        			|urlscheme                                 |
 |:---------------|:---------------------------|
 |**Navigation:**
@@ -203,29 +211,37 @@
 
 -------
 
-## 常用搜索引擎
+##Mac
+>mac软件中直接跳转
+
+|名称|urlscheme|描述|可用时间|
+|:--|:--|:--|:--| 
+|App Store|macappstore://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}|直接在AppStore软件中直接搜索|2017.10.9|
+# 搜索引擎
+##网页
 >跳转默认网页进行搜索
 
 |名称         	|urlscheme                           |
 |:---------|:----------------------------------|
-|知乎 	     |https://www.zhihu.com/search?q=|
 |谷歌 	     |https://www.google.com/search?q=|
+|百度百科     |http://baike.baidu.com/item/|
+|知乎 	     |https://www.zhihu.com/search?q=|
 |百度 	     |https://m.baidu.com/s?word=|
 |维基 	     |https://en.m.wikipedia.org/wiki/|
 |维基中文 |https://zh.wikipedia.org/wiki/%@|
-|有道词典 |http://m.youdao.com/dict?q=|
-|京东       |http://so.m.jd.com/ware/search.action?keyword=|
 |淘宝 	     |http://s.m.taobao.com/h5?q=Input|
 |豆瓣 	     |https://m.douban.com/search/?query=|
-|百度百科     |http://baike.baidu.com/item/|
 |微博 	     |http://m.weibo.cn/main/pages/index?containerid=100103type%3D1%26q%3D|
+|有道词典 |http://m.youdao.com/dict?q=|
+|京东       |http://so.m.jd.com/ware/search.action?keyword=|
 
-## url-scheme for mac
->mac软件中直接跳转
+##Mac
 
-|名称|urlscheme|描述|可用时间|
-|:--|:--|:--|:--|
-|App Store|macappstore://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}|直接在AppStore软件中直接搜索|2017.10.9|
+|名称         	|urlscheme                           |
+|:---------|:----------------------------------|
+|Chrome网上商店|https://chrome.google.com/webstore/search/{query}?utm_source=chrome-ntp-icon|
+
+
 
 
 
